@@ -70,13 +70,16 @@ public class MasterMind {
 			sb.append("o");
 			accM--;
 		}
-		System.out.print(sb.toString());
+		System.out.println("Commentaire : "+sb.toString());
 		//FIN Envoi de la réponse
 		
 	}
 	
 	public boolean getEstBon(){
 		return this.estBon;
+	}
+	public void printCF(){
+		System.out.print(this.cF.toString());
 	}
 	
 }
